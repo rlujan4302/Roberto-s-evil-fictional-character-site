@@ -1,0 +1,64 @@
+#banner{
+	display:flex;
+	justify-content:center;
+	padding-top: 20px; 
+	padding-bottom: 15px; 
+}
+body {
+	background-image:url("https://vignette.wikia.nocookie.net/villains/images/b/b3/Fire-Nation-josh-shirohige1939-32750483-1280-1024.jpg/revision/latest?cb=20170524145805");
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#nav { 
+	margin-bottom: 50px; 
+	white-space: nowrap;
+	display:flex; 
+	justify-content:center;
+}
+#nav a { 
+	font-family: Helvetica, sans-serif; 
+	font-weight: bold; color: red; 
+	text-transform: uppercase; margin-right: 10px; 
+	padding: 10px; 
+}
+#nav a:hover { 
+	color: #bc9d6d; 
+	text-decoration: none; 
+	border-bottom: 1px solid #bc9d6d; 
+}
+#wrapper{
+	display:flex; 
+	justify-content:space-around;
+}
+#wrapper2{
+	display:flex; 
+	order:4; 
+}
+#aside{
+	justify-content:flex-end;
+	width:280px;
+	height:400px;
+}
+#left{
+	display:flex;
+	align-self:flex-start;
+	order: 4;
+	width:280px;
+	height:400px;
+}
+#main{
+	background-color: maroon;
+		opacity: 0.9;
+		margin-left: auto;
+		margin-right: auto;
+		width:700px;
+		height:1000px;
+		font-size: 30px;
+		color: yellow;
+		font-family: 'Montez', cursive;
+		text-align:center; 
+}
+#h1{
+	text-decoration:underline;
+}

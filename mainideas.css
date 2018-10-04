@@ -1,0 +1,84 @@
+ #banner { 
+	background-image: url(https://i.pinimg.com/originals/f1/36/06/f13606d53aaf49d5b160bf204028beab.jpg); 
+	padding-top: 20px; 
+	padding-bottom: 15px; 
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 30px;
+	margin:0 auto; 
+	background-repeat:no-repeat;
+}
+#nav { 
+	margin-bottom: 50px; 
+	white-space: nowrap;
+	text-align: center; 
+}
+#nav a { 
+	font-family: Helvetica, sans-serif; 
+	font-weight: bold; color: red; 
+	text-transform: uppercase; margin-right: 10px; 
+	padding: 10px; 
+}
+#nav a:hover { 
+	color: #bc9d6d; 
+	text-decoration: none; 
+	border-bottom: 1px solid #bc9d6d; 
+}
+	#wrapper {
+		width: 1000px;
+		height:800px;
+		margin: 0 auto; 
+		display:flex;
+}
+	#main {
+		background-color: maroon;
+		opacity: 0.9;
+		margin-left: auto;
+		margin-right: auto;
+		width:700px;
+		height:1000px;
+		float: left;
+		text-align: center;
+		font-size: 40px;
+		color: red;
+		font-family: 'Montez', cursive;
+}
+	#aside {
+		width:280px;
+		height:400px;
+		text-align: center;
+		font-size:15px;
+		align-self:flex-end;
+		flex-direction:column;
+}
+	#wrapper2 {
+		width: 1000px;
+		height:800px;
+		display:flex;
+}
+	#left {
+       align-self:flex-start;
+       flex-direction:column;
+}
+	h4 {
+		font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+		font-size: 15px;
+		color: LimeGreen;
+}
+	body {
+		background-image:url("https://vignette.wikia.nocookie.net/villains/images/b/b3/Fire-Nation-josh-shirohige1939-32750483-1280-1024.jpg/revision/latest?cb=20170524145805");
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		margin:0;
+		font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+		color: #6a8e6b;
+}
+.quicklinks { 
+	font-family:verdana, sans-serif; 
+	font-size: 11px;
+	color: green; 
+}
+    #footer {
+    	clear: both;
+    }
